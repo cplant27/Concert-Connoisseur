@@ -27,7 +27,7 @@ You must also have Spotify Developer credentials (Client ID, Client Secret) set 
 Refer to the Spotipy documentation for detailed setup instructions: https://spotipy.readthedocs.io/
 
 ## Files Included
-1. **your_script.py**: The main Python script to be run.
+1. **spotipy_calls.py**: The main Python script to be run.
 2. **top_artists.json**: The static dataset generated in default mode (created upon running the script).
 3. **README.txt**: Instructions for running the script.
 4. **Diagram.png**: A diagram showing the script workflow.
@@ -36,17 +36,17 @@ Refer to the Spotipy documentation for detailed setup instructions: https://spot
 ### Static Mode
 This mode loads a static dataset and prints its contents or a sample. Provide the path to a JSON file.
 ```bash
-python your_script.py --static <path/to/static_dataset.json>
+python spotipy_callst.py --static <path/to/static_dataset.json>
 ```
 Example:
 ```bash
-python your_script.py --static top_artists.json
+python spotipy_calls.py --static top_artists.json
 ```
 
 ### Scrape Mode
 This mode fetches sample data (top 5 artists) from the Spotify API.
 ```bash
-python your_script.py --scrape
+python spotipy_calls.py --scrape
 ```
 
 ### Default Mode
@@ -55,7 +55,7 @@ This mode performs the full process:
 2. Saves the data to a JSON file (`spotify_top_artists.json`).
 3. Prints a sample of the data.
 ```bash
-python your_script.py
+python spotipy_calls.py
 ```
 
 ## Extensibility
