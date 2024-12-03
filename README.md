@@ -1,4 +1,4 @@
-
+# Concert Connoisseur by CJ Plantemoli and Makena Robison
 # Spotify Data Analysis Script
 
 ## Description
@@ -78,3 +78,94 @@ The following points outline potential issues:
 
 ## Diagram
 Refer to the `Diagram.png` file included in the submission for a visual representation of the script's workflow.
+
+# Seatgeek Script
+This script fetches data from Seatgeek using a web scraper. It can run in three modes:
+1. **Static Mode**: Reads and displays a static dataset stored as a JSON file.
+2. **Scrape Mode**: Fetches sample data  using the web scraper and displays it.
+3. **Default Mode**: Combines scraping, saving the data to a static JSON file, and displaying a sample.
+
+
+# Ticketmaster Script
+This script fetches data from the Ticketmaster API. It can run in three modes:
+1. **Static Mode**: Reads and displays a static dataset stored as a JSON file.
+2. **Scrape Mode**: Fetches sample datausing the Ticketmaster API and displays it.
+3. **Default Mode**: Combines scraping, saving the data to a static JSON file, and displaying a sample.
+
+
+
+## Running the Scripts
+
+### Static Mode
+
+
+For Ticketmaster:
+```bash
+python ticketmaster_calls.py --static <path/to/static_dataset.json>
+```
+Example:
+```bash
+python ticketmaster_calls.py --static dat/ticketmaster_data.json
+```
+
+For SeatGeek:
+```bash
+python seatgeek_calls.py --static <path/to/static_dataset.json>
+```
+Example:
+```bash
+python seatgeek_calls.py --static dat/seatgeek_data.json
+```
+
+---
+
+### Scrape Mode
+
+
+For Ticketmaster:
+```bash
+python ticketmaster_calls.py --scrape "Taylor Swift"
+```
+
+For SeatGeek:
+```bash
+python seatgeek_calls.py --scrape "Taylor Swift"
+```
+
+---
+
+### Default Mode
+This mode performs the full process:
+1. Fetches event data for a predefined artist (e.g., "Taylor Swift").
+2. Saves the data to a JSON file (`ticketmaster_data.json` or `concert_data.json`) in the `dat` directory.
+3. Prints a sample of the data.
+
+For Ticketmaster:
+```bash
+python3 ticketmaster_calls.py
+```
+
+For SeatGeek:
+```bash
+python3 seatgeek_calls.py
+```
+
+---
+
+## Extensibility
+These scripts can be extended by:
+- Adding more data fields, such as ticket prices or seating options, by expanding the API request parameters.
+- Supporting additional APIs for event data, allowing for cross-platform comparisons.
+- Including output formats like CSV or SQL for easier integration with other tools.
+- Adding filtering and sorting functionality for events by date, location, or price.
+
+---
+
+## Maintainability
+The following points outline potential issues:
+- **API Limits**: Ticketmaster API may enforce rate limits or quotas, causing the script to fail if too many requests are made in a short period.
+- **Static Dataset Size**: Large datasets could slow down processing or lead to memory errors when printing or loading.
+- **Environment Variables**: Missing API credentials (e.g., Ticketmaster API key) will cause authentication failures.
+- **Website Structure (SeatGeek)**: Changes to the SeatGeek website's structure could break the scraping functionality.
+- **Dependency Updates**: Updates to libraries like `requests`, `selenium`, or `BeautifulSoup` may require adjustments to the script.
+
