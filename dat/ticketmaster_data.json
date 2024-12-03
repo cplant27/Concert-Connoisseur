@@ -1,1 +1,493 @@
-[{"name": "Taylor Swift", "url": "N/A", "date": "2024-11-22"}, {"name": "Taylor Swift", "url": "N/A", "date": "2024-11-21"}, {"name": "TAYLOR SWIFT", "url": "N/A", "date": "2024-11-22"}, {"name": "TAYLOR SWIFT", "url": "N/A", "date": "2024-11-21"}, {"name": "TAYLOR SWIFT", "url": "N/A", "date": "2024-11-23"}]
+[
+  {
+    "name": "Drake Milligan",
+    "url": "https://www.ticketmaster.nl/event/drake-milligan-tickets/310989?language=en-us",
+    "date": "2025-02-27"
+  },
+  {
+    "name": "Bradley Mens Basketball v Drake",
+    "url": "https://www.ticketmaster.com/bradley-mens-basketball-v-drake-peoria-illinois-01-08-2025/event/070061309A311E0C",
+    "date": "2025-01-08"
+  },
+  {
+    "name": "The Songs of Nick Drake",
+    "url": "https://www.ticketweb.uk/event/the-songs-of-nick-drake-the-barrel-house-tickets/13924843?REFERRAL_ID=tmfeed",
+    "date": "2025-10-12"
+  },
+  {
+    "name": "Drake Bell, Christian Lopez",
+    "url": "https://www.ticketweb.com/event/drake-bell-christian-lopez-the-venice-west-tickets/13616944",
+    "date": "2024-12-20"
+  },
+  {
+    "name": "UIC Flames Men's Basketball v Drake",
+    "url": "https://www.ticketmaster.com/uic-flames-mens-basketball-v-drake-chicago-illinois-01-01-2025/event/0400614B9CAA20DE",
+    "date": "2025-01-01"
+  },
+  {
+    "name": "USHER: Past Present Future",
+    "url": "https://www.ticketmaster.com/usher-past-present-future-miami-florida-12-16-2024/event/0D0060412C35302C",
+    "date": "2024-12-16"
+  },
+  {
+    "name": "USHER: Past Present Future",
+    "url": "https://www.ticketmaster.com/usher-past-present-future-miami-florida-12-18-2024/event/0D006045D1B125F3",
+    "date": "2024-12-18"
+  },
+  {
+    "name": "USHER: Past Present Future",
+    "url": "https://www.ticketmaster.com/usher-past-present-future-brooklyn-new-york-12-06-2024/event/3000615CCCA88A6A",
+    "date": "2024-12-06"
+  },
+  {
+    "name": "USHER: Past Present Future",
+    "url": "https://www.ticketmaster.com/usher-past-present-future-atlanta-georgia-12-12-2024/event/0E006049E6C85715",
+    "date": "2024-12-12"
+  },
+  {
+    "name": "USHER: Past Present Future",
+    "url": "https://www.ticketmaster.com/usher-past-present-future-miami-florida-12-19-2024/event/0D006045D2B9260B",
+    "date": "2024-12-19"
+  },
+  {
+    "name": "BigXThaPlug",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7upqJ",
+    "date": "2024-12-05"
+  },
+  {
+    "name": "BigXThaPlug",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ub4x",
+    "date": "2024-12-07"
+  },
+  {
+    "name": "BigXThaPlug",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7upay",
+    "date": "2024-12-08"
+  },
+  {
+    "name": "BigXThaPlug",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7up0o",
+    "date": "2024-12-10"
+  },
+  {
+    "name": "BigXthaPlug: Take Care Tour",
+    "url": "https://concerts.livenation.com/bigxthaplug-take-care-tour-denver-colorado-12-12-2024/event/1E0060EADECAB396",
+    "date": "2024-12-12"
+  },
+  {
+    "name": "96.1 The Beat's Jingle Ball Presented by Capital One",
+    "url": "https://www.ticketmaster.com/961-the-beats-jingle-ball-presented-atlanta-georgia-12-19-2024/event/0E006134E6F761F8",
+    "date": "2024-12-19"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-san-francisco-california-01-06-2026/event/1C005EDDA6D43A4E",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-miami-florida-01-06-2026/event/0D005EF99836BF4F",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-seattle-washington-01-06-2026/event/0F005E95C2D82ED5",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-indianapolis-indiana-01-06-2026/event/05005E92C83F2872",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-portland-oregon-01-06-2026/event/0F005EDBD87834D3",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "YEAT Rolling Loud Pre-Party",
+    "url": "https://www.universe.com/events/yeat-rolling-loud-pre-party-tickets-ZC3X79?ref=ticketmaster",
+    "date": "2024-12-12"
+  },
+  {
+    "name": "YEAT LIV Rolling Loud Week",
+    "url": "https://www.ticketweb.com/event/yeat-liv-rolling-loud-week-liv-nightclub-miami-tickets/13954493",
+    "date": "2024-12-12"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "ian",
+    "url": "https://www.ticketweb.com/event/ian-august-hall-tickets/13920353?REFERRAL_ID=tmfeed",
+    "date": "2024-12-08"
+  },
+  {
+    "name": "Ian Munsick",
+    "url": "https://www.ticketmaster.com/ian-munsick-las-vegas-nevada-12-06-2024/event/170060F2A10E16CC",
+    "date": "2024-12-06"
+  },
+  {
+    "name": "Ian Munsick",
+    "url": "https://www.ticketmaster.com/ian-munsick-stateline-nevada-12-08-2024/event/39006123D30D227F",
+    "date": "2024-12-08"
+  },
+  {
+    "name": "Ian Munsick",
+    "url": "https://www.ticketmaster.com/ian-munsick-jim-thorpe-pennsylvania-03-22-2025/event/0200616BC13D29FF",
+    "date": "2025-03-22"
+  },
+  {
+    "name": "Ian Bagg",
+    "url": "https://www.ticketmaster.com/ian-bagg-madison-wisconsin-02-21-2025/event/07006151329C4A9C",
+    "date": "2025-02-21"
+  },
+  {
+    "name": "Lil Baby & Friends",
+    "url": "https://www.ticketmaster.com/lil-baby-friends-atlanta-georgia-12-07-2024/event/0E006164D05B233E",
+    "date": "2024-12-07"
+  },
+  { "name": "LIL BABY", "url": "N/A", "date": "2024-12-07" },
+  { "name": "LIL BABY", "url": "N/A", "date": "2024-12-07" },
+  {
+    "name": "LIL WEEZYANA PRESENTS HOT BOYS HOLIDAY",
+    "url": "https://www.toyotacenter.com/events/detail/lilwayne/",
+    "date": "2024-12-21"
+  },
+  {
+    "name": "93.5 KDAY Presents - Krush Groove Festival",
+    "url": "https://www.ticketmaster.com/935-kday-presents-krush-groove-festival-inglewood-california-04-19-2025/event/09006177D61D3DEB",
+    "date": "2025-04-19"
+  },
+  {
+    "name": "WGCI Big Jam",
+    "url": "https://www.ticketmaster.com/wgci-big-jam-chicago-illinois-12-07-2024/event/07006107B20D2375",
+    "date": "2024-12-07"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-san-francisco-california-01-06-2026/event/1C005EDDA6D43A4E",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-miami-florida-01-06-2026/event/0D005EF99836BF4F",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-seattle-washington-01-06-2026/event/0F005E95C2D82ED5",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-indianapolis-indiana-01-06-2026/event/05005E92C83F2872",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Playboi Carti",
+    "url": "https://www.ticketmaster.com/playboi-carti-portland-oregon-01-06-2026/event/0F005EDBD87834D3",
+    "date": "2026-01-06"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Mike Sherm",
+    "url": "https://concerts.livenation.com/mike-sherm-san-diego-california-02-22-2025/event/0A00615CB0EF2029",
+    "date": "2025-02-22"
+  },
+  {
+    "name": "Mike Sherm",
+    "url": "https://www.ticketweb.com/event/mike-sherm-senator-theatre-tickets/13942173",
+    "date": "2025-02-07"
+  },
+  {
+    "name": "Mike Sherm",
+    "url": "https://www.ticketweb.com/event/mike-sherm-virginia-street-brewhouse-tickets/13942213",
+    "date": "2025-03-01"
+  },
+  {
+    "name": "Mike Sherm",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ob4o",
+    "date": "2025-03-09"
+  },
+  {
+    "name": "Mike sherm performing live!",
+    "url": "https://concerts.livenation.com/mike-sherm-performing-live-sacramento-california-02-08-2025/event/1C006164283B3417",
+    "date": "2025-02-08"
+  },
+  {
+    "name": "J. Cole: Forest Hills Drive 10th Anniversary at Madison Square Garden",
+    "url": "https://www.ticketmaster.com/j-cole-forest-hills-drive-10th-new-york-new-york-12-16-2024/event/3B006175DC3F2263",
+    "date": "2024-12-16"
+  },
+  {
+    "name": "Zach Top: Cold Beer & Country Music Tour",
+    "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-cincinnati-ohio-02-01-2025/event/16006133AEEB295C",
+    "date": "2025-02-01"
+  },
+  {
+    "name": "PAWSA IN THE PARK - All Day Long",
+    "url": "https://www.ticketmaster.co.uk/pawsa-in-the-park-all-day-london-08-08-2025/event/3700616FE24B395A",
+    "date": "2025-08-08"
+  },
+  {
+    "name": "KENDRICK LAMAR NIGHT",
+    "url": "https://www.ticketweb.com/event/kendrick-lamar-night-strummers-tickets/14027203",
+    "date": "2024-12-13"
+  },
+  { "name": "Kendrick Lamar Suites", "url": "N/A", "date": "2025-04-23" },
+  {
+    "name": "Suites - Kendrick Lamar 2025",
+    "url": "N/A",
+    "date": "2025-05-21"
+  },
+  {
+    "name": "Suites - Kendrick Lamar 2025",
+    "url": "N/A",
+    "date": "2025-05-23"
+  },
+  {
+    "name": "Kendrick Lamar Suite Deposit",
+    "url": "N/A",
+    "date": "2025-05-31"
+  },
+  {
+    "name": "Metro Boomin",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7F8ZM",
+    "date": "2024-12-07"
+  },
+  {
+    "name": "METRO BOOMIN",
+    "url": "https://www.ticketmaster.ae/event/metro-boomin-tickets/80191551",
+    "date": "2025-01-24"
+  },
+  {
+    "name": "Metro Boomin Official Rolling Loud Afterparty",
+    "url": "https://www.universe.com/events/metro-boomin-official-rolling-loud-afterparty-tickets-62WBPD?ref=ticketmaster",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Metro Boomin Official Rolling Loud Afterparty",
+    "url": "https://www.ticketweb.com/event/metro-boomin-official-rolling-loud-liv-nightclub-miami-tickets/13954513",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "G Perico",
+    "url": "https://concerts.livenation.com/g-perico-santa-ana-california-12-22-2024/event/0900614BA0232BC8",
+    "date": "2024-12-22"
+  },
+  { "name": "Carbon Offset Fee", "url": "N/A", "date": "2024-12-31" },
+  { "name": "Carbon Offset Fee", "url": "N/A", "date": "2024-12-31" },
+  { "name": "Carbon Offset Fee", "url": "N/A", "date": "2024-12-31" },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "The Frank White Experience: A Live Band Tribute To Notorious B.I.G.",
+    "url": "https://www.ticketmaster.com/the-frank-white-experience-a-live-virginia-beach-virginia-12-19-2024/event/01006134DC4F8FAF",
+    "date": "2024-12-19"
+  },
+  {
+    "name": "Vinny Appice's Sabbath Knights, Garden of Eden, Red the Rose, Apricity, Bigfoot, Saepiena, Deadly Virtues",
+    "url": "https://www.ticketweb.com/event/vinny-appices-sabbath-knights-garden-whisky-a-go-go-tickets/13595594",
+    "date": "2024-12-18"
+  },
+  {
+    "name": "Ship Wrek",
+    "url": "https://www.ticketweb.com/event/ship-wrek-time-nightclub-tickets/13636984",
+    "date": "2024-12-21"
+  },
+  {
+    "name": "Ship Wrek (18+ Event)",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7oxoy",
+    "date": "2024-12-14"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Tyler the Creator w/ Lil Yachty",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7oe39",
+    "date": "2025-02-08"
+  },
+  {
+    "name": "Tyler the Creator w/ Lil Yachty",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ovxF",
+    "date": "2025-02-14"
+  },
+  {
+    "name": "Tyler the Creator w/ Lil Yachty",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7o7q0",
+    "date": "2025-02-15"
+  },
+  {
+    "name": "Tyler the Creator w/ Lil Yachty",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ovxa",
+    "date": "2025-02-17"
+  },
+  {
+    "name": "Tyler the Creator w/ Lil Yachty",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7o7j6",
+    "date": "2025-02-18"
+  },
+  {
+    "name": "Michael Mathers, the Ultimate Eminem Tribute",
+    "url": "https://www.ticketweb.uk/event/michael-mathers-the-ultimate-eminem-hertford-corn-exchange-tickets/13769263?REFERRAL_ID=tmfeed",
+    "date": "2025-04-26"
+  },
+  {
+    "name": "SHADY - Live Band Tribute to Eminem",
+    "url": "https://www.ticketweb.com/event/shady-live-band-impact-fuel-room-tickets/13616014",
+    "date": "2024-12-14"
+  },
+  {
+    "name": "Michael Mathers: the Eminem Tribute Act Experience",
+    "url": "https://www.ticketweb.uk/event/michael-mathers-the-eminem-tribute-the-horn-tickets/13769273?REFERRAL_ID=tmfeed",
+    "date": "2025-09-27"
+  },
+  {
+    "name": "SHADY: A Live Band Tribute To The Music Of Eminem",
+    "url": "https://www.ticketweb.com/event/shady-a-live-band-tribute-joes-on-weed-street-tickets/14008113",
+    "date": "2025-01-11"
+  },
+  {
+    "name": "Mau P",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7uM-_",
+    "date": "2025-02-22"
+  },
+  {
+    "name": "Mau P ( 21+ )",
+    "url": "https://www.ticketmaster.com/mau-p-21-boston-massachusetts-12-28-2024/event/01006145BF6180B4",
+    "date": "2024-12-28"
+  },
+  {
+    "name": "Mau P: 18+",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7o0PF",
+    "date": "2024-12-30"
+  },
+  {
+    "name": "Apres Ski NYE - Single Day Pass",
+    "url": "https://www.ticketmaster.com/apres-ski-nye-single-day-pass-stateline-nevada-12-31-2024/event/170060FA86551200",
+    "date": "2024-12-31"
+  },
+  {
+    "name": "Apres Ski NYE - 2 Day Pass",
+    "url": "https://www.ticketmaster.com/apres-ski-nye-2-day-pass-stateline-nevada-12-30-2024/event/170060FA86591202",
+    "date": "2024-12-30"
+  },
+  {
+    "name": "The Bootleg Beatles",
+    "url": "https://www.ticketmaster.co.uk/the-bootleg-beatles-birmingham-05-12-2024/event/1F006041DE566E0B",
+    "date": "2024-12-05"
+  },
+  {
+    "name": "The Bootleg Beatles",
+    "url": "https://www.ticketmaster.co.uk/the-bootleg-beatles-york-06-12-2024/event/3600603DDAA2499A",
+    "date": "2024-12-06"
+  },
+  {
+    "name": "The Bootleg Beatles",
+    "url": "https://www.ticketmaster.co.uk/the-bootleg-beatles-leicester-07-12-2024/event/1F006039CDC32786",
+    "date": "2024-12-07"
+  },
+  {
+    "name": "The Bootleg Beatles",
+    "url": "https://www.ticketmaster.co.uk/the-bootleg-beatles-liverpool-08-12-2024/event/1F006041D66F6D69",
+    "date": "2024-12-08"
+  },
+  {
+    "name": "The Bootleg Beatles",
+    "url": "https://www.ticketmaster.co.uk/the-bootleg-beatles-manchester-10-12-2024/event/1F0060458ED111C7",
+    "date": "2024-12-10"
+  },
+  {
+    "name": "Tommy Richman",
+    "url": "https://concerts.livenation.com/tommy-richman-charlotte-north-carolina-03-14-2025/event/2D00615596571C5F",
+    "date": "2025-03-14"
+  },
+  {
+    "name": "Tommy Richman",
+    "url": "https://www.ticketmaster.ca/tommy-richman-toronto-ontario-03-27-2025/event/10006155EF19428C",
+    "date": "2025-03-27"
+  },
+  {
+    "name": "Tommy Richman",
+    "url": "https://www.ticketmaster.co.uk/tommy-richman-london-05-05-2025/event/1F006165E4572A12",
+    "date": "2025-05-05"
+  },
+  {
+    "name": "Tommy Richman",
+    "url": "https://www.ticketmaster.nl/event/tommy-richman-tickets/439390836?language=en-us",
+    "date": "2025-05-01"
+  },
+  {
+    "name": "Tommy Richman - The Coyote Tour",
+    "url": "https://concerts.livenation.com/tommy-richman-the-coyote-tour-dallas-texas-03-08-2025/event/0C006168BC2F311F",
+    "date": "2025-03-08"
+  },
+  { "name": "NOR vs. NAS", "url": "N/A", "date": "2025-06-10" },
+  { "name": "NOR vs. NAS", "url": "N/A", "date": "2025-06-11" },
+  { "name": "NOR vs. NAS", "url": "N/A", "date": "2025-06-12" },
+  { "name": "NOR vs. NAS", "url": "N/A", "date": "2025-06-13" },
+  { "name": "NOR vs. NAS", "url": "N/A", "date": "2025-06-14" },
+  {
+    "name": "Lil Wayne LIVE IN CONCERT",
+    "url": "https://www.ticketmaster.com/lil-wayne-live-in-concert-stockton-california-02-01-2025/event/1C0060A79D5B74B6",
+    "date": "2025-02-01"
+  },
+  {
+    "name": "Lil Wayne Basel Closing Party",
+    "url": "https://www.ticketweb.com/event/lil-wayne-basel-closing-party-liv-nightclub-miami-tickets/13954473",
+    "date": "2024-12-08"
+  },
+  {
+    "name": "Lil Wayne with GloRilla & Muni Long",
+    "url": "N/A",
+    "date": "2025-01-18"
+  },
+  {
+    "name": "AT&T PLAYOFF PLAYLIST LIVE FT. LIL WAYNE",
+    "url": "N/A",
+    "date": "2025-01-18"
+  },
+  {
+    "name": "Lil Wayne with GloRilla & Muni Long ? AT&T Playoff Playlist Live!",
+    "url": "https://www.ticketmaster.com/lil-wayne-with-glorilla-muni-long-atlanta-georgia-01-18-2025/event/0E006174D7893C3F",
+    "date": "2025-01-18"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  },
+  {
+    "name": "Rolling Loud",
+    "url": "https://on.fgtix.com/trk/MN3K",
+    "date": "2024-12-13"
+  }
+]

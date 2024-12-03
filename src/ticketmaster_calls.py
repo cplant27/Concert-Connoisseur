@@ -1,12 +1,14 @@
-import sys
 import argparse
-import json
-import requests
-import os
 import csv
+import json
+import os
+import sys
+
+import requests
 
 # Replace with your Ticketmaster API Key
 API_KEY = "IGSONbJBdo7ZbdjgZdXG4glj2wG5MLi3"
+
 
 def fetch_ticketmaster_data(artist):
     """Fetch concert data for an artist using Ticketmaster API."""
@@ -14,7 +16,7 @@ def fetch_ticketmaster_data(artist):
     params = {
         "apikey": API_KEY,
         "keyword": artist,
-        "size": 5  # Limit to 5 events for simplicity
+        "size": 5,  # Limit to 5 events for simplicity
     }
     try:
         response = requests.get(url, params=params)
@@ -37,15 +39,16 @@ def fetch_ticketmaster_data(artist):
         print(f"Error fetching data from Ticketmaster API: {e}")
         return []
 
+
 def static_mode(dataset_path):
     """Load and print static dataset."""
     try:
-        if dataset_path.endswith('.json'):
+        if dataset_path.endswith(".json"):
             with open(dataset_path, "r") as f:
                 data = json.load(f)
             print(f"Dataset loaded from {dataset_path}. Total entries: {len(data)}")
             print(json.dumps(data[:5], indent=2))
-        elif dataset_path.endswith('.csv'):
+        elif dataset_path.endswith(".csv"):
             with open(dataset_path, "r") as f:
                 reader = csv.reader(f)
                 data = list(reader)
@@ -56,6 +59,7 @@ def static_mode(dataset_path):
     except Exception as e:
         print(f"Error loading dataset: {e}")
 
+
 def scrape_mode(artist):
     """Fetch data from Ticketmaster API and print sample."""
     print(f"Fetching data for artist: {artist}...")
@@ -64,15 +68,18 @@ def scrape_mode(artist):
         print(f"Sample data for {artist}:")
         print(json.dumps(events[:5], indent=2))
 
-def default_mode():
+
+def default_mode(artist):
     """Fetch data, save it to a static file, and print a sample."""
-    artist = "Taylor Swift" 
-    print(f"Fetching and saving data for artist: {artist}...")
+    # artist = "Taylor Swift"
+    print(f"\nFetching and saving data for artist: {artist}...")
     events = fetch_ticketmaster_data(artist)
     if events:
         # Ensure the 'dat' directory exists
         dat_directory = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "dat"))
-        os.makedirs(dat_directory, exist_ok=True)  # Create 'dat' directory if it doesn't exist
+        os.makedirs(
+            dat_directory, exist_ok=True
+        )  # Create 'dat' directory if it doesn't exist
         output_file = os.path.join(dat_directory, "ticketmaster_data.json")
         with open(output_file, "w") as f:
             json.dump(events, f)
@@ -82,9 +89,45 @@ def default_mode():
     else:
         print("No data to save.")
 
+
+def production_mode(artists):
+    """
+    Fetch data for multiple artists, save to a single output file.
+    Should not be callable by command line.
+    """
+    print(f"\nFetching and saving data for {len(artists)} artists...")
+
+    # Ensure the 'dat' directory exists
+    dat_directory = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "dat"))
+    os.makedirs(dat_directory, exist_ok=True)
+
+    output_file = os.path.join(dat_directory, "ticketmaster_data.json")
+    all_events = []
+
+    for artist in artists:
+        print(f"Fetching data for artist: {artist}...")
+        events = fetch_ticketmaster_data(artist)
+        if events:
+            all_events.extend(events)
+            print(f"Added {len(events)} events for {artist}")
+        else:
+            print(f"No data found for {artist}")
+
+    if all_events:
+        with open(output_file, "w") as f:
+            json.dump(all_events, f)
+        print(f"\nData saved to {output_file}.")
+        print(f"Total entries: {len(all_events)}. Sample data:")
+        print(json.dumps(all_events[:5], indent=2))
+    else:
+        print("No data to save.")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="HW4 Script using Ticketmaster API.")
-    parser.add_argument("--static", type=str, help="Path to static dataset for static mode.")
+    parser.add_argument(
+        "--static", type=str, help="Path to static dataset for static mode."
+    )
     parser.add_argument("--scrape", type=str, help="Artist name for scrape mode.")
     args = parser.parse_args()
 

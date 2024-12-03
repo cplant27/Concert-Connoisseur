@@ -40,36 +40,6 @@ def scrape_mode():
         print(f"{i}. {artist['name']}")
 
 
-def default_mode():
-    """Scrape data, save it to a static file, and print it."""
-    username = os.getlogin()
-    try:
-        token = util.prompt_for_user_token(
-            username,
-            scope=["user-top-read"],
-        )
-    except:
-        os.remove(f".cache-{username}")
-        token = util.prompt_for_user_token(
-            username,
-            scope=["user-top-read"],
-        )
-    spotify_object = spotipy.Spotify(auth=token)
-    top_artists = spotify_object.current_user_top_artists(limit=50)["items"]
-
-    data = [
-        {"rank": i + 1, "name": artist["name"]} for i, artist in enumerate(top_artists)
-    ]
-    output_path = "../dat/spotify_top_artists.json"
-
-    with open(output_path, "w") as f:
-        json.dump(data, f, indent=2)
-
-    print(f"Data saved to {output_path}.")
-    print("Sample data:")
-    print(json.dumps(data[:5], indent=2))
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Spotify Data Analysis Script")
     parser.add_argument("--static", type=str, help="Path to static dataset")
