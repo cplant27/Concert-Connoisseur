@@ -10,12 +10,45 @@ import requests
 API_KEY = "IGSONbJBdo7ZbdjgZdXG4glj2wG5MLi3"
 
 
+def get_artist_attraction_id(artist):
+    """Fetch the Ticketmaster attractionId for a specific artist."""
+    url = "https://app.ticketmaster.com/discovery/v2/attractions.json"
+    params = {"apikey": API_KEY, "keyword": artist}
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        data = response.json()
+        if "_embedded" in data:
+            attractions = data["_embedded"]["attractions"]
+            for attraction in attractions:
+                if attraction["name"].lower() == artist.lower():
+                    return attraction["id"]
+        print(f"Attraction ID for {artist} not found.")
+        return None
+    except requests.RequestException as e:
+        print(f"Error fetching artist attraction ID: {e}")
+        return None
+
+
+def get_event_details(event_id):
+    url = f"https://app.ticketmaster.com/discovery/v2/events/{event_id}.json"
+    params = {"apikey": API_KEY}
+    response = requests.get(url, params=params)
+    response.raise_for_status()
+    return response.json()
+
+
 def fetch_ticketmaster_data(artist):
-    """Fetch concert data for an artist using Ticketmaster API."""
+    """Fetch concert data for an artist using Ticketmaster API and attractionId."""
+    attraction_id = get_artist_attraction_id(artist)
+    if not attraction_id:
+        print(f"No data found for artist: {artist}")
+        return []
+
     url = "https://app.ticketmaster.com/discovery/v2/events.json"
     params = {
         "apikey": API_KEY,
-        "keyword": artist,
+        "attractionId": attraction_id,
         "size": 5,  # Limit to 5 events for simplicity
     }
     try:
@@ -24,14 +57,41 @@ def fetch_ticketmaster_data(artist):
         data = response.json()
         if "_embedded" in data:
             events = data["_embedded"]["events"]
-            return [
-                {
-                    "name": event.get("name", "N/A"),
-                    "url": event.get("url", "N/A"),
-                    "date": event["dates"]["start"].get("localDate", "N/A"),
-                }
-                for event in events
-            ]
+            return_list = []
+            for event in events:
+                event_id = event["id"]
+                try:
+                    details = get_event_details(event_id)
+                    # Build a dictionary for each event with detailed information
+                    event_data = {
+                        "Artist": artist,
+                        "Event": details.get("name", "Unknown Event"),
+                        "Venue": details["_embedded"]["venues"][0].get(
+                            "name", "Unknown Venue"
+                        ),
+                        "Location": (
+                            f"{details['_embedded']['venues'][0]['city']['name']}, {details['_embedded']['venues'][0]['state']['name']}"
+                            if "_embedded" in details
+                            and "venues" in details["_embedded"]
+                            else "Unknown Location"
+                        ),
+                        "Date": details["dates"]["start"].get(
+                            "localDate", "Unknown Date"
+                        ),
+                        "Time": details["dates"]["start"].get(
+                            "localTime", "Unknown Time"
+                        ),
+                        "Price Range": (
+                            f"{details['priceRanges'][0]['min']} - {details['priceRanges'][0]['max']} {details['priceRanges'][0]['currency']}"
+                            if "priceRanges" in details
+                            else "Price information not available"
+                        ),
+                        "Link": details.get("url", "No link available"),
+                    }
+                    return_list.append(event_data)
+                except Exception as e:
+                    print(f"Error fetching details for event {event_id}: {e}")
+            return return_list
         else:
             print("No events found for the given artist.")
             return []
@@ -72,7 +132,7 @@ def scrape_mode(artist):
 def default_mode(artist):
     """Fetch data, save it to a static file, and print a sample."""
     # artist = "Taylor Swift"
-    print(f"\nFetching and saving data for artist: {artist}...")
+    print(f"\nFetching and saving data from ticketmaster for artist: {artist}...")
     events = fetch_ticketmaster_data(artist)
     if events:
         # Ensure the 'dat' directory exists
@@ -115,7 +175,7 @@ def production_mode(artists):
 
     if all_events:
         with open(output_file, "w") as f:
-            json.dump(all_events, f)
+            json.dump(all_events, f, indent=2)
         print(f"\nData saved to {output_file}.")
         print(f"Total entries: {len(all_events)}. Sample data:")
         print(json.dumps(all_events[:5], indent=2))

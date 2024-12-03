@@ -13,11 +13,11 @@
   },
   {
     "rank": 4,
-    "name": "Gunna"
+    "name": "Travis Scott"
   },
   {
     "rank": 5,
-    "name": "Travis Scott"
+    "name": "Gunna"
   },
   {
     "rank": 6,
@@ -29,7 +29,7 @@
   },
   {
     "rank": 8,
-    "name": "Shoreline Mafia"
+    "name": "Kendrick Lamar"
   },
   {
     "rank": 9,
@@ -37,23 +37,23 @@
   },
   {
     "rank": 10,
-    "name": "ian"
+    "name": "Shoreline Mafia"
   },
   {
     "rank": 11,
-    "name": "Kai Bandz"
+    "name": "ian"
   },
   {
     "rank": 12,
-    "name": "Young Thug"
+    "name": "Kai Bandz"
   },
   {
     "rank": 13,
-    "name": "Lil Baby"
+    "name": "Young Thug"
   },
   {
     "rank": 14,
-    "name": "NLE Choppa"
+    "name": "Lil Baby"
   },
   {
     "rank": 15,
@@ -61,19 +61,19 @@
   },
   {
     "rank": 16,
-    "name": "Lil Tecca"
-  },
-  {
-    "rank": 17,
-    "name": "Kanye West"
-  },
-  {
-    "rank": 18,
     "name": "Lil Uzi Vert"
   },
   {
-    "rank": 19,
+    "rank": 17,
+    "name": "Lil Tecca"
+  },
+  {
+    "rank": 18,
     "name": "Mike Sherm"
+  },
+  {
+    "rank": 19,
+    "name": "NLE Choppa"
   },
   {
     "rank": 20,
@@ -81,35 +81,35 @@
   },
   {
     "rank": 21,
-    "name": "ShooterGang Kony"
+    "name": "Kanye West"
   },
   {
     "rank": 22,
-    "name": "J. Cole"
-  },
-  {
-    "rank": 23,
     "name": "PAWSA"
   },
   {
+    "rank": 23,
+    "name": "ShooterGang Kony"
+  },
+  {
     "rank": 24,
-    "name": "\u00a5$"
+    "name": "J. Cole"
   },
   {
     "rank": 25,
-    "name": "Kendrick Lamar"
-  },
-  {
-    "rank": 26,
-    "name": "Metro Boomin"
-  },
-  {
-    "rank": 27,
     "name": "G Perico"
   },
   {
+    "rank": 26,
+    "name": "\u00a5$"
+  },
+  {
+    "rank": 27,
+    "name": "DB.Boutabag"
+  },
+  {
     "rank": 28,
-    "name": "Juice WRLD"
+    "name": "Metro Boomin"
   },
   {
     "rank": 29,
@@ -117,7 +117,7 @@
   },
   {
     "rank": 30,
-    "name": "DB.Boutabag"
+    "name": "Juice WRLD"
   },
   {
     "rank": 31,
@@ -133,15 +133,15 @@
   },
   {
     "rank": 34,
-    "name": "Mac Miller"
-  },
-  {
-    "rank": 35,
     "name": "Vinny West"
   },
   {
+    "rank": 35,
+    "name": "Mac Miller"
+  },
+  {
     "rank": 36,
-    "name": "Ship Wrek"
+    "name": "DaBoii"
   },
   {
     "rank": 37,
@@ -149,54 +149,54 @@
   },
   {
     "rank": 38,
-    "name": "Noizu"
-  },
-  {
-    "rank": 39,
     "name": "Lil Yachty"
   },
   {
-    "rank": 40,
-    "name": "Eminem"
-  },
-  {
-    "rank": 41,
+    "rank": 39,
     "name": "Mau P"
   },
   {
-    "rank": 42,
+    "rank": 40,
+    "name": "Noizu"
+  },
+  {
+    "rank": 41,
     "name": "The Beatles"
   },
   {
-    "rank": 43,
-    "name": "DaBoii"
-  },
-  {
-    "rank": 44,
-    "name": "Tommy Richman"
-  },
-  {
-    "rank": 45,
-    "name": "JAY-Z"
-  },
-  {
-    "rank": 46,
-    "name": "Nas"
-  },
-  {
-    "rank": 47,
-    "name": "Lil Wayne"
-  },
-  {
-    "rank": 48,
-    "name": "Eem Triplin"
-  },
-  {
-    "rank": 49,
+    "rank": 42,
     "name": "Nicki Minaj"
   },
   {
+    "rank": 43,
+    "name": "Eminem"
+  },
+  {
+    "rank": 44,
+    "name": "Jack Harlow"
+  },
+  {
+    "rank": 45,
+    "name": "1takejay"
+  },
+  {
+    "rank": 46,
+    "name": "BabyTron"
+  },
+  {
+    "rank": 47,
+    "name": "Ship Wrek"
+  },
+  {
+    "rank": 48,
+    "name": "Rucci"
+  },
+  {
+    "rank": 49,
+    "name": "Lil Wayne"
+  },
+  {
     "rank": 50,
-    "name": "Trippie Redd"
+    "name": "JAY-Z"
   }
 ]

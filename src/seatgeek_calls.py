@@ -7,6 +7,8 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+import seatgeek_format as sgf
+
 
 def static_mode(dataset_path):
     """Load and print static dataset."""
@@ -85,6 +87,9 @@ def default_mode(artist):
     print(f"Data saved to {output_file}.")
     print(f"Total entries: {len(concert_links)}. Sample data:")
     print(json.dumps(data["concert_links"][:5], indent=2))
+
+    sgf.seatgeek_format()
+    print("Data formatted and saved to ticketmaster_data.py")
 
 
 if __name__ == "__main__":

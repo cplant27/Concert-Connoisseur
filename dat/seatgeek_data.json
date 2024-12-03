@@ -1,0 +1,41 @@
+{
+    "artist": "Taylor Swift",
+    "concerts": [
+        {
+            "location": "Toronto Canada Rogers Centre ",
+            "date": "2024-11-21",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/toronto-canada-rogers-centre-2024-11-21-7-pm/concert/6109456"
+        },
+        {
+            "location": "Toronto Canada Rogers Centre ",
+            "date": "2024-11-22",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/toronto-canada-rogers-centre-2024-11-22-7-pm/concert/6109458"
+        },
+        {
+            "location": "Toronto Canada Rogers Centre ",
+            "date": "2024-11-23",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/toronto-canada-rogers-centre-2024-11-23-7-pm/concert/6109460"
+        },
+        {
+            "location": "Vancouver Canada Bc Place Stadium ",
+            "date": "2024-12-06",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/vancouver-canada-bc-place-stadium-2024-12-06-7-pm/concert/6260020"
+        },
+        {
+            "location": "Vancouver Canada Bc Place Stadium ",
+            "date": "2024-12-07",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/vancouver-canada-bc-place-stadium-2024-12-07-7-pm/concert/6260021"
+        },
+        {
+            "location": "Vancouver Canada Bc Place Stadium ",
+            "date": "2024-12-08",
+            "time": "7 pm",
+            "link": "https://seatgeek.com/taylor-swift-tickets/vancouver-canada-bc-place-stadium-2024-12-08-7-pm/concert/6260025"
+        }
+    ]
+}
